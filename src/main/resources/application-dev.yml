@@ -1,0 +1,39 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://43.138.78.14:3306/myblog_test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&serverTimezone=GMT%2B8
+    username: root
+    password: huige666
+    hikari:
+      max-lifetime: 500000
+  mail:
+    host: smtp.163.com
+    username: xxx@163.com
+    address: xxx@163.com
+    password: xxx
+    default-encoding: utf-8
+    protocol: smtp
+    port: 25
+  level:
+    root: info
+    com.star: debug
+  file:
+    name: log/blog-dev.log
+
+
+  redis:
+    host: 172.17.71.60
+    password: Dr5BcO0HaqL3K
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5
+        min-idle: 0
+
+
