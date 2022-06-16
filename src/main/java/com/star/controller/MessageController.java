@@ -21,7 +21,7 @@ import java.util.List;
  * @Date: Created in 10:57 2020/4/16
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Controller
 public class MessageController {

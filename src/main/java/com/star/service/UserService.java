@@ -7,7 +7,7 @@ import com.star.entity.User;
  * @Date: Created in 22:56 2020/5/26
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public interface UserService {
     //核对用户名和密码

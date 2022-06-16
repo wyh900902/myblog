@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @Date: Created in 22:08 2020/6/27
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Controller
 public class PictureShowController {

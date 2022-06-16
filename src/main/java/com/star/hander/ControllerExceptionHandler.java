@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Date: Created in 21:40 2020/5/20
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @ControllerAdvice
 public class ControllerExceptionHandler {

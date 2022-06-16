@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  * @Author HUIGE
  * @Date: 2021/1/22 21:18
  * @微信：YXK-HUIGE
- * @URL：https://HUIGE.newstar.net.cn/
+ * @URL：https://huige.work/
  * @Version 1.0
  */
 @Component

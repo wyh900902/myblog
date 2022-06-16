@@ -9,7 +9,7 @@ import java.util.Date;
  * @Date: Created in 9:31 2020/6/3
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public class BlogQuery {
 

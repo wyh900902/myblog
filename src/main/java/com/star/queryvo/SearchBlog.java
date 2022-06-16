@@ -5,7 +5,7 @@ package com.star.queryvo;
  * @Date: Created in 14:16 2020/6/8
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public class SearchBlog {
 

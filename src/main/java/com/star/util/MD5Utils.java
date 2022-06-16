@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
  * @Date: Created in 17:16 2020/5/27
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public class MD5Utils {
 

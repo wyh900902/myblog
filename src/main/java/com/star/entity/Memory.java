@@ -8,7 +8,7 @@ import java.util.Date;
  * @Author HUIGE
  * @Date: 2020/10/13 22:37
  * @QQ群：530311074
- * @URL：https://HUIGE.newstar.net.cn/
+ * @URL：https://huige.work/
  * @Version 1.0
  */
 public class Memory {

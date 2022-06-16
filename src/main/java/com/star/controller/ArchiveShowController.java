@@ -15,7 +15,7 @@ import java.util.List;
  * @Date: Created in 17:40 2020/6/27
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Controller
 public class ArchiveShowController {

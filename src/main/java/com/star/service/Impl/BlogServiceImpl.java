@@ -19,7 +19,7 @@ import java.util.List;
  * @Date: Created in 23:47 2020/6/2
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Service
 public class BlogServiceImpl implements BlogService {

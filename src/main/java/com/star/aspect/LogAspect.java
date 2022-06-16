@@ -16,7 +16,7 @@ import java.util.Arrays;
  * @Date: Created in 23:31 2020/5/21
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Aspect
 @Component

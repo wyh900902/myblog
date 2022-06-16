@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @Author HUIGE
  * @Date: 2021/1/22 22:55
  * @微信：YXK-HUIGE
- * @URL：https://HUIGE.newstar.net.cn/
+ * @URL：https://huige.work/
  * @Version 1.0
  */
 public class Response<T> implements Serializable {

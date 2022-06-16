@@ -19,7 +19,7 @@ import javax.validation.Valid;
  * @Date: Created in 20:42 2020/8/11
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Controller
 public class ResourceShowController {

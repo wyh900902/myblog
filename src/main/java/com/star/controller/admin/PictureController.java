@@ -20,7 +20,7 @@ import java.util.List;
  * @Date: Created in 11:30 2020/6/15
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Controller
 @RequestMapping("/admin")

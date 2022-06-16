@@ -5,7 +5,7 @@ package com.star.queryvo;
  * @Date: Created in 19:45 2020/8/19
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public class NewComment {
 

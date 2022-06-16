@@ -22,7 +22,7 @@ import java.util.List;
  * @Author HUIGE
  * @Date: 2020/10/19 23:39
  * @QQ群：530311074
- * @URL：https://HUIGE.newstar.net.cn/
+ * @URL：https://huige.work/
  * @Version 1.0
  */
 @Controller

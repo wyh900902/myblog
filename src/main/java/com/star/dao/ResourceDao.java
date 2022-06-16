@@ -13,7 +13,7 @@ import java.util.List;
  * @Date: Created in 18:05 2020/8/2
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Mapper
 @Repository

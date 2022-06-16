@@ -9,7 +9,7 @@ import java.util.List;
  * @Date: Created in 11:31 2020/6/15
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public interface PictureService {
 

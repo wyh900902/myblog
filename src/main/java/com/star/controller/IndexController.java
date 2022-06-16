@@ -23,7 +23,7 @@ import java.util.List;
  * @Date: Created in 21:01 2020/5/20
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Controller
 public class IndexController {

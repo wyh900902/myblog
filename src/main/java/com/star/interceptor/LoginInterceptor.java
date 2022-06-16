@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Date: Created in 23:42 2020/5/27
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public class LoginInterceptor extends HandlerInterceptorAdapter {
     @Override

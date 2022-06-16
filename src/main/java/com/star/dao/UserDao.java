@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * @Date: Created in 0:06 2020/5/27
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 @Mapper
 @Repository

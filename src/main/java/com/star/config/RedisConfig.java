@@ -25,7 +25,7 @@ import java.time.Duration;
  * @Author HUIGE
  * @Date: 2020/11/9 19:41
  * @QQ群：530311074
- * @URL：https://HUIGE.newstar.net.cn/
+ * @URL：https://huige.work/
  * @Version 1.0
  */
 @EnableCaching      // 开启缓存

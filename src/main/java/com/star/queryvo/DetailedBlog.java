@@ -7,7 +7,7 @@ import java.util.Date;
  * @Date: Created in 10:10 2020/6/19
  * @Author: HUIGE
  * @QQ群: 530311074
- * @URL: https://HUIGE.newstar.net.cn/
+ * @URL: https://huige.work/
  */
 public class DetailedBlog {
 
