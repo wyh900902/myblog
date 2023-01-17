@@ -25,4 +25,14 @@ public class PictureShowController {
         return "picture";
     }
 
+    @GetMapping("/fire")
+    public String fire(Model model) {
+        return "fire";
+    }
+    @GetMapping("/huige")
+    public String fire2(Model model) {
+        return "fire2";
+    }
+
+
 }
