@@ -43,8 +43,12 @@
 		  "size": "512x512"
         }),
         });
-        const res = await response.json();
-		console.log(res);
+		const res = await response.json();
+		if(200 != response.status){
+		const msg = res.error.message;
+		alert('非法输入或者网络延迟,具体原因：\n' + msg);
+			return;
+		}
 		const data = res.data;
 		const imageUrl = data[0]
 		console.log(imageUrl);
