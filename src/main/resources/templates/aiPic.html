@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ai - Chat 辉哥云</title>
+    <style>
+        #image-container {
+            width: 512px;
+            height: 512px;
+            border: 1px solid black;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+<div class="filter-menu text-center mb-40">
+    <h4>用ChatGPT-Ai绘图，请描述您的绘图需求-支持中文、英语、日本语等</h4>
+    <h3>本服务基于ChatGPT，访问费用由站长-辉哥承担，请勿频繁访问！</h3>
+    <p><a href="https://huige.work" target="_blank">辉哥blog</a></p>
+    <p><a href="https://huige.work/ai" target="_blank">AI对话</a></p>
+</div>
+<form>
+    <label for="input-text">输入你需要绘制需求（描述越详细图片越准确）:</label><br>
+    <textarea class="form-control" id="input-text" name="input-text" placeholder="输入描述" rows="3" resize="none" style="width: 135%; margin: 0 auto; background-color: #f4f4f4; color: #333; border: 1px solid #ccc; border-radius: 12px;"></textarea>
+    <button type="button" onclick="generateImage()">生成图片</button>
+</form>
+<div>长途访问，请耐心图片绘制</div>
+<div id="image-container"></div>
+<script>
+
+		const generateImage = async () => {
+		document.getElementById("image-container").style.backgroundImage = "url('')";
+		const response = await fetch("https://api.openai.com/v1/images/generations", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+			"Authorization": "Bearer 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",
+          },
+          body: JSON.stringify({
+          "prompt": document.getElementById("input-text").value,
+          "n": 1,
+		  "size": "512x512"
+        }),
+        });
+        const res = await response.json();
+		console.log(res);
+		const data = res.data;
+		const imageUrl = data[0]
+		console.log(imageUrl);
+		document.getElementById("image-container").style.backgroundImage = "url('" + imageUrl.url + "')";
+
+		}
+
+	</script>
+</body>
+</html>
